@@ -17,12 +17,12 @@ const Projects = () => {
               <img src="/assets/project-1.png" alt="" />
               <h2>Plate Change</h2>
               <div className="d-flex justify-content-between gap-3">
-                <Link target="blank" to="https://ebcalculator.netlify.app/">
+                <Link target="blank" to="https://platechange.onrender.com/">
                   <button>Go Live</button>
                 </Link>
                 <Link
                   target="blank"
-                  to="https://github.com/Sridar-cod/Eletricity-bill-calculator"
+                  to="https://github.com/Sridar-cod/plateChange"
                 >
                   <button>View Code</button>
                 </Link>
@@ -47,12 +47,12 @@ const Projects = () => {
               <img src="/assets/project-2.png" alt="" />
               <h2>EB Calculator</h2>
               <div className="d-flex justify-content-between gap-3">
-                <Link target="blank" to="https://platechange.netlify.app/">
+                <Link target="blank" to="https://ebcalculator.netlify.app/">
                   <button>Go Live</button>
                 </Link>
                 <Link
                   target="blank"
-                  to="https://github.com/Sridar-cod/plateChange"
+                  to="https://github.com/Sridar-cod/Eletricity-bill-calculator"
                 >
                   <button>View Code</button>
                 </Link>
