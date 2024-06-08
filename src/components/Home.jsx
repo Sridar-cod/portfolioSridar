@@ -1,22 +1,25 @@
 import React, { useEffect } from "react";
-import 'aos/dist/aos.css';
-import AOS from 'aos';
+import "aos/dist/aos.css";
+import AOS from "aos";
 const Home = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, 
+      duration: 1000,
     });
   }, []);
   return (
     <>
       <div className="home  d-flex justify-content-center align-items-center w-100">
         <div className="home__inner   d-flex flex-column justify-content-center align-items-center">
-          <div className="img-container "  data-aos="flip-left">
+          <div className="img-container " data-aos="flip-left">
             <div className="inner__img "></div>
           </div>
 
-          <div className="inner__content d-flex flex-column justify-content-center align-items-center  mt-4" data-aos="fade-up"
-     data-aos-duration="1000">
+          <div
+            className="inner__content d-flex flex-column justify-content-center align-items-center  mt-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h1>
               Hi I'm <span> Sridar.</span> <br />
               <span> Front </span> End Developer{" "}
@@ -25,7 +28,7 @@ const Home = () => {
             <p>
               Working with my hands to make magic happen on the internet. View
               my <b className="home__content-span">Projects</b> <b>resume</b>{" "}
-              <b>contact me</b> or send me an email at sridar9771@gmail.com.{" "}
+              contact me or send me an email at sridar1404@gmail.com.{" "}
               <br />
               <small>Chennai, TamilNadu, India</small>
             </p>
